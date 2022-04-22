@@ -13,8 +13,8 @@ return 1;
 }
 int main()
 {
-printf("Enter the string.. at end press^d\n");
+printf("Enter the string... at end press ^d\n");
 yylex();
-printf("No. of vowels=%d\nNo. of consonants=%d\n", vowels, cons);
+printf("No of vowels=%d\nNo of consonants=%d\n",vowels,cons);
 return 0;
 }
